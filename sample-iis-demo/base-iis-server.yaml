@@ -33,7 +33,7 @@ spec:
       containers:
       - name: base-iis-server
         imagePullPolicy: IfNotPresent
-        image: microsoft/iis
+        image: microsoft/iis:windowsservercore-ltsc2019
       nodeSelector:
         beta.kubernetes.io/os: "windows"
       tolerations:
